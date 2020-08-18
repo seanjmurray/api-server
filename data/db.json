@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "id": 1
+    },
+    {
+      "id": "id1",
+      "name": "fun",
+      "display_name": "Fun Stuff",
+      "description": "This is fun"
+    },
+    {
+      "id": "id2",
+      "name": "fun",
+      "display_name": "Fun Stuff",
+      "description": "This is fun"
+    }
+  ],
+  "products": []
+}
