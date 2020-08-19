@@ -1,0 +1,28 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanjmurray/api-server.git"
+  },
+  "author": "Sean Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanjmurray/api-server/issues"
+  },
+  "homepage": "https://github.com/seanjmurray/api-server#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.4.0"
+  }
+}
