@@ -8,13 +8,13 @@ class Categories {
     return category.save();
   }
   update(id,obj){
-    return categories.findOneByIdAndUpdate(id,obj);
+    return categories.findOneAndUpdate(id,obj);
   }
   read(name){
     return name ? categories.find({ name: name }) : categories.find({}) ;
   }
   delete(id){
-    return categories.findOneByIdAndDelete(id);
+    return categories.findOneAndDelete(id);
   }
 }
 
